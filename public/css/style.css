@@ -1,0 +1,88 @@
+body {
+	padding-top: 70px;
+	/* background-color: #9c27b0 !important; */
+	background: red;
+	animation: colorchange 120s;
+	-moz-animation: colorchange 120s infinite; /* Firefox */
+	-webkit-animation: colorchange 120s infinite; /* Safari and Chrome */
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	line-height: 60px;
+}
+
+@-moz-keyframes colorchange /* Firefox */ {
+	0% {
+		background: #3f51b5;
+	}
+	25% {
+		background: #9c27b0;
+	}
+	50% {
+		background: #e91e63;
+	}
+	75% {
+		background: #ff9800;
+	}
+	100% {
+		background: #3f51b5;
+	}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome */ {
+	0% {
+		background: #3f51b5;
+	}
+	25% {
+		background: #9c27b0;
+	}
+	50% {
+		background: #e91e63;
+	}
+	75% {
+		background: #ff9800;
+	}
+	100% {
+		background: #3f51b5;
+	}
+}
+
+/* @keyframes colorchange {
+	0% {
+		background-color: #3f51b5 !important;
+	}
+	25% {
+		background-color: #9c27b0 !important;
+	}
+	50% {
+		background-color: #e91e63 !important;
+	}
+	75% {
+		background-color: #ff9800 !important;
+	}
+	100% {
+		background-color: #2196f3 !important;
+	}
+} */
+/* Safari and Chrome - necessary duplicate */
+/* @-webkit-keyframes colorchange  {
+	0% {
+		background-color: #3f51b5 !important;
+	}
+	25% {
+		background-color: #9c27b0 !important;
+	}
+	50% {
+		background-color: #e91e63 !important;
+	}
+	75% {
+		background-color: #ff9800 !important;
+	}
+	100% {
+		background-color: #2196f3 !important;
+	}
+} */
